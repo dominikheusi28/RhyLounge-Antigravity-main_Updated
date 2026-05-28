@@ -1,0 +1,360 @@
+{
+  "FAQ": {
+    "q1": {
+      "question": "Combien de personnes peuvent être accueillies à bord de la RhyLounge ?",
+      "answer": "La RhyLounge est un bateau événementiel de petite capacité naviguant sur le Rhin à Bâle. Elle peut accueillir jusqu’à douze personnes pour des événements privés, professionnels ou des cérémonies d’adieu."
+    },
+    "q2": {
+      "question": "Quelle est la saison de navigation de la RhyLounge ?",
+      "answer": "La RhyLounge navigue toute l’année sur le Rhin. Grâce à son espace intérieur chauffé, des sorties sont également possibles en automne et en hiver. Chaque croisière est planifiée individuellement selon votre événement et vos besoins."
+    },
+    "q3": {
+      "question": "Puis-je apporter ma propre nourriture et mes boissons ?",
+      "answer": "Oui, il est possible d’apporter sa propre nourriture et ses propres boissons. Dans ce cas, un droit de bouchon par personne est facturé. Sur demande, nous pouvons également organiser le catering et les boissons pour votre événement sur le Rhin."
+    },
+    "q4": {
+      "question": "Que se passe-t-il en cas de mauvais temps ?",
+      "answer": "Les sorties à bord de la RhyLounge ont lieu même en cas de pluie ou de températures fraîches. L’espace intérieur chauffé et les zones abritées garantissent le confort de votre événement, quelles que soient les conditions météorologiques. En cas de conditions extrêmes, nous définissons la suite avec vous à l’avance."
+    },
+    "q5": {
+      "question": "Où se trouve le point d’embarquement ?",
+      "answer": "Le point d’embarquement dépend de l’itinéraire et de l’événement. Les lieux de départ et d’arrivée sont définis individuellement afin que la croisière sur le Rhin corresponde parfaitement à votre événement."
+    },
+    "q6": {
+      "question": "Combien de temps à l’avance faut-il réserver ?",
+      "answer": "Il est recommandé de réserver le plus tôt possible, en particulier pour les dates très demandées. Les réservations de dernière minute restent possibles selon les disponibilités. Contactez-nous directement."
+    }
+  },
+  "Nav": {
+    "home": "Accueil",
+    "offers": "Offres",
+    "ship": "Le Bateau",
+    "events": "Événements",
+    "catering": "Traiteur",
+    "pricing": "Tarifs & FAQ",
+    "contact": "Contact",
+    "cta": "Demander maintenant",
+    "mClose": "Fermer le menu",
+    "mOpen": "Ouvrir le menu"
+  },
+  "Footer": {
+    "desc": "Tours en bateau privés sur le Rhin à Bâle. Des moments inoubliables pour un maximum de 12 invités.",
+    "t1": "Offres",
+    "t2": "Informations",
+    "t3": "Contact",
+    "impressum": "Mentions légales",
+    "datenschutz": "Politique de confidentialité",
+    "agb": "CGV",
+    "rights": "Tous droits réservés."
+  },
+  "Hero": {
+    "badge": "Croisière Privée Premium",
+    "t1": "Redecouvrez Bale",
+    "t2": "depuis l'eau",
+    "sub": "Plus qu'une simple balade en bateau. Votre retraite exclusive sur le Rhin pour apéritifs, dîners et moments inoubliables.",
+    "cta1": "Demander maintenant",
+    "cta2": "Voir les offres",
+    "f1a": "Jusqu'à 12 invités",
+    "f1b": "Privé & Exclusif",
+    "f2a": "Personnel",
+    "f2b": "Durée au choix",
+    "f3a": "Apéritif & Dîner",
+    "f3b": "Traiteur à bord",
+    "f4a": "Bâle Ville",
+    "f4b": "Depuis Schifflände"
+  },
+  "Exp": {
+    "t1": "La RhyLounge",
+    "t2": "Journey",
+    "sub": "De l'accueil jusqu'au dernier regard sur les lumières de la ville.",
+    "s1a": "Arrivée & Embarquement",
+    "s1b": "Votre capitaine privé vous accueille chaleureusement au Schifflände de Bâle. Le tapis rouge est déroulé pour vous.",
+    "s2a": "Bâle la Nuit",
+    "s2b": "La ville s'illumine. La cathédrale, la tour Roche et les ponts défilent paisiblement.",
+    "s3a": "Apéritif & Lounge",
+    "s3b": "Trinquez. Avec du Prosecco fin, des vins locaux et un plateau apéritif, profitez de l'exclusivité.",
+    "s4a": "Moments inoubliables",
+    "s4b": "Que ce soit des conversations profondes ou des rires joyeux – ce voyage reste en mémoire.",
+    "eye1": "Le bateau de petite capacit? le plus innovant et confortable sur le Rhin ? B?le",
+    "eye2": "Les moments particuliers m?ritent un lieu particulier."
+  },
+  "AGrid": {
+    "badge": "Possibilités diverses",
+    "t1": "Nos",
+    "t2": "Offres",
+    "sub": "Fete, repas, soiree detendue ou moment calme: chaque sortie est planifiee personnellement.",
+    "o1a": "Fetes privees",
+    "o1b": "Anniversaires & moments speciaux",
+    "o1c": "Celebrez en prive sur le Rhin avec famille et amis, repas, boissons et musique selon vos souhaits.",
+    "o2a": "Repas d affaires",
+    "o2b": "Business sur l eau",
+    "o2c": "Un cadre particulier pour rendez-vous clients, repas d equipe et petits evenements d entreprise.",
+    "o3a": "Moments calmes",
+    "o3b": "Aussi pour les adieux",
+    "o4a": "Traiteur & Aperitif",
+    "o4b": "Plaisir a bord",
+    "o5a": "Individuel",
+    "o5b": "Selon vos souhaits",
+    "view": "Voir les détails"
+  },
+  "Social": {
+    "badge": "Avis authentiques",
+    "t": "Ce que les clients disent sur Google",
+    "sub": "Consultez les notes et commentaires actuels directement sur le profil Google Maps de la RhyLounge.",
+    "st1": "Profil Google en direct",
+    "st2": "Note actuelle",
+    "st3": "Vrais avis clients",
+    "googleTitle": "Voir les avis directement sur Google",
+    "googleText": "La note et les commentaires sont affich?s en direct sur Google. Les visiteurs voient ainsi les informations actuelles et de vrais retours clients.",
+    "googleCta": "Ouvrir les avis Google",
+    "prev": "Avis pr?c?dent",
+    "next": "Avis suivant"
+  },
+  "CTA": {
+    "b1": "Réponse sous 24h",
+    "b2": "Offre sans engagement",
+    "b3": "Pas de coûts cachés",
+    "badge": "Commencez votre planification",
+    "t1": "Prêt pour votre",
+    "t2": "événement sur le Rhin ?",
+    "sub": "Réservez la date de votre choix. Remplissez le formulaire et nous vous contacterons personnellement.",
+    "phone": "Vous préférez parler directement ?",
+    "form": "Envoyer une demande"
+  },
+  "ContactForm": {
+    "opts": [
+      "Veuillez choisir...",
+      "Anniversaire",
+      "Événement d'entreprise",
+      "Apéritif",
+      "Mariage / Fête",
+      "Autre"
+    ],
+    "err": "Il y a eu une erreur. Veuillez réessayer.",
+    "sucT": "Demande envoyée !",
+    "sucD": "Merci pour votre demande. Nous vous répondrons dans les 24 heures.",
+    "newReq": "Nouvelle demande",
+    "vor": "Prénom",
+    "nach": "Nom",
+    "firma": "Entreprise (Optionnel)",
+    "email": "E-Mail",
+    "tel": "Téléphone",
+    "anlass": "Occasion",
+    "datum": "Date (Optionnel)",
+    "pers": "Personnes",
+    "msg": "Message / Souhaits",
+    "pMsg": "Décrivez l'événement prévu...",
+    "d1": "J'ai lu la",
+    "d2": "politique de condifentialité",
+    "d3": "et j'accepte le traitement de mes données.",
+    "sub": "Envoi...",
+    "s": "Envoyer"
+  },
+  "AngebotePage": {
+    "badge": "Offres individuelles",
+    "t1": "Un bateau pour",
+    "t2": "votre occasion",
+    "sub": "Les occasions mentionn?es sont des exemples. Chaque sortie est organis?e selon votre ?v?nement, votre groupe et l'ambiance souhait?e.",
+    "includes": "Nous organisons cela ensemble",
+    "cta": "Demander maintenant",
+    "mainKicker": "Tout est organis? individuellement",
+    "mainTitle": "Votre occasion sur l'eau",
+    "mainText": "La RhyLounge n'est pas un forfait fixe, mais un lieu priv? sur le Rhin. Vous pouvez manger ? bord, trinquer, c?l?brer, simplement vous d?tendre ou vivre un moment plus calme. Nous adaptons la dur?e, l'itin?raire, les repas, les boissons et l'ambiance ? vos souhaits.",
+    "examplesTitle": "Occasions possibles",
+    "examples": [
+      "Anniversaires",
+      "Repas d'affaires",
+      "Simplement comme ?a",
+      "Ap?ritif & boissons",
+      "Petites f?tes",
+      "C?r?monies d'adieu",
+      "Enterrements de vie de c?libataire",
+      "Famille & amis"
+    ],
+    "highlights": [
+      "Dur?e et itin?raire flexibles",
+      "Repas, boissons ou traiteur possibles",
+      "Cadre priv? jusqu'? 12 invit?s",
+      "Ambiance calme, festive ou d?tendue",
+      "Conseil personnalis? avant la r?servation"
+    ],
+    "bottomT": "Vous avez votre propre id?e ?",
+    "bottomD": "Dites-nous ce que vous imaginez. Nous en ferons une sortie adapt?e ? votre occasion.",
+    "bottomCta": "Envoyer une demande personnelle"
+  },
+  "CateringPage": {
+    "badge": "Repas & boissons",
+    "t1": "Selon",
+    "t2": "vos souhaits",
+    "sub": "La RhyLounge ne propose pas de formules traiteur fixes. Il y a un bar ? bord et un r?frig?rateur avec des boissons sans alcool. Le reste est organis? selon votre occasion, votre groupe et vos envies.",
+    "mainKicker": "Individuel, pas un forfait",
+    "mainTitle": "Repas et boissons sur accord",
+    "mainText": "Un simple ap?ritif, quelques snacks, un repas ? bord ou vos propres plats et boissons : nous discutons ensemble de ce qui convient ? votre sortie. Le bar ? bord et le r?frig?rateur avec des boissons sans alcool offrent une bonne base. Des partenaires ou traiteurs locaux peuvent aussi ?tre impliqu?s si souhait?.",
+    "pointsTitle": "Une organisation flexible",
+    "points": [
+      "Bar ? bord et r?frig?rateur avec boissons sans alcool disponibles",
+      "Pas de menu fixe ni de forfait rigide",
+      "Vos propres plats et boissons sont possibles sur accord",
+      "Ap?ritif, snacks ou repas peuvent ?tre adapt?s ? l'occasion",
+      "Tout est discut? personnellement avant la r?servation"
+    ],
+    "examplesTitle": "Id?es possibles",
+    "examples": [
+      "Boissons sans alcool",
+      "Ap?ritif",
+      "Boissons",
+      "Snacks",
+      "Petit repas",
+      "Vos propres plats"
+    ],
+    "cta": "Demander maintenant",
+    "bT": "Vous avez des souhaits particuliers ?",
+    "bD": "Dites-nous bri?vement ce que vous imaginez. Nous clarifions ensemble ce qui est adapt? et possible ? bord.",
+    "bCta": "Envoyer une demande personnelle",
+    "gT": "Galerie"
+  },
+  "EventsPage": {
+    "badge": "Événements & Occasions",
+    "t1": "Événements d'Entreprise & ",
+    "t2": "Occasions Privées",
+    "sub": "Du teambuilding au mariage – nous concevons des événements inoubliables sur le Rhin.",
+    "items": [
+      {
+        "t": "Événements d'Entreprise",
+        "s": "Teambuilding sur l'eau",
+        "d": "Renforcez la cohésion de votre équipe lors d'un événement inoubliable.",
+        "h1": "Activités",
+        "h2": "Options de restauration",
+        "h3": "Horaires flexibles",
+        "h4": "Jusqu'à 12 Invités"
+      },
+      {
+        "t": "Occasions Privées",
+        "s": "Moments uniques",
+        "d": "Anniversaires, jubilés, ou un bel endroit avec des amis.",
+        "h1": "Décoration personnalisée",
+        "h2": "Apéritif",
+        "h3": "Musique à la carte",
+        "h4": "Intimité garantie"
+      },
+      {
+        "t": "Mariages & Fêtes",
+        "s": "Le cadre d'exception",
+        "d": "De la demande en mariage à la fête – sur l'eau, c'est magique.",
+        "h1": "Ambiance romantique",
+        "h2": "Tours au coucher du soleil",
+        "h3": "Lieux pour photos",
+        "h4": "Restauration sur mesure"
+      }
+    ],
+    "req": "Envoyer la demande",
+    "pT": "Comment ça marche",
+    "p": [
+      {
+        "s": "01",
+        "t": "Demande",
+        "d": "Parlez-nous de l'événement prévu."
+      },
+      {
+        "s": "02",
+        "t": "Consultation",
+        "d": "Nous créons une offre sur mesure."
+      },
+      {
+        "s": "03",
+        "t": "Planification",
+        "d": "Nous planifions ensemble le déroulement."
+      },
+      {
+        "s": "04",
+        "t": "Expérience",
+        "d": "Profitez d'un événement inoubliable !"
+      }
+    ],
+    "bT": "Planifiez votre événement",
+    "bD": "Envoyez-nous vos idées et nous élaborerons une offre sans engagement.",
+    "bCta": "S'informer"
+  },
+  "KontaktPage": {
+    "badge": "Contact",
+    "t1": "Votre",
+    "t2": "Demande",
+    "sub": "Parlez-nous de votre événement prévu. Nous répondrons dans les 24 heures sans engagement.",
+    "fT": "Envoyer une demande",
+    "fS": "Remplissez le formulaire et nous vous contacterons.",
+    "fastT": "Réponse rapide",
+    "fastD": "Nous répondons à toutes les demandes en 24h. Si c'est urgent, appelez-nous.",
+    "i1T": "Téléphone",
+    "i1D": "Lun-Ven 9:00-18:00",
+    "i2T": "E-Mail",
+    "i2D": "Réponse sous 24h",
+    "i3T": "Lieu d'embarquement",
+    "i3D": "Le point de d?part et d'arriv?e est convenu personnellement selon l'itin?raire et l'occasion.",
+    "i4T": "Disponible toute l annee",
+    "i4V": "Chaque saison est possible",
+    "i4D": "Nous planifions votre sortie selon la meteo et l occasion.",
+    "mapA": "Lieu d'embarquement flexible sur le Rhin ? B?le",
+    "mapO": "Ouvrir sur Google Maps",
+    "i3V": "Flexible sur le Rhin ? B?le"
+  },
+  "RhyloungePage": {
+    "badge": "Le Bateau",
+    "t1": "La",
+    "t2": "RhyLounge",
+    "sub": "Votre bateau d'expérience et confortable sur le Rhin. Parfait pour les excursions privées.",
+    "i1L": "Capacité",
+    "i1V": "Jusqu'à 12 Invités",
+    "i2L": "Longueur",
+    "i2V": "10 Mètres",
+    "i3L": "Sécurité",
+    "i3V": "Entièrement équipé",
+    "i4L": "Année",
+    "i4V": "2018",
+    "fT1": "Équipement &",
+    "fT2": "Confort",
+    "fD": "La RhyLounge est plus qu'un bateau – c'est votre refuge privé sur l'eau.",
+    "f0": "Sièges confortables avec rembourrage",
+    "f1": "Protection météo",
+    "f2": "Système sonore haute qualité",
+    "f3": "Frigo fourni",
+    "f4": "Éclairage de nuit",
+    "f5": "Accès adapté possible",
+    "cT": "Votre Hôte",
+    "cS": "Capitaine",
+    "cQ": "\"Pour moi, chaque trajet est un moment spécial, rempli de souvenirs crées.\"",
+    "c1": "8+ ans d'expérience",
+    "c2": "Pilote certifié",
+    "c3": "Attention personnelle",
+    "gT": "Galerie",
+    "bT": "Prêt à monter à bord ?",
+    "bD": "Envoyez-nous votre demande et découvrez la RhyLounge.",
+    "bCta": "Demander"
+  },
+  "PreisePage": {
+    "badge": "Offres individuelles",
+    "t1": "Offre &",
+    "t2": "FAQ",
+    "sub": "Chaque sortie est adaptee a l occasion, la duree, l itineraire et le service. Contactez-nous pour une offre personnalisee.",
+    "pT": "Inclus dans le prix",
+    "inc": [
+      {
+        "l": "Capitaine & Hôte"
+      },
+      {
+        "l": "Horaires flexibles"
+      },
+      {
+        "l": "Itinéraires individuels"
+      },
+      {
+        "l": "Pas de coûts cachés"
+      }
+    ],
+    "fT": "Questions Fréquentes",
+    "fSub": "Trouvez rapidement des réponses aux questions les plus courantes. Nous sommes à votre disposition.",
+    "bT": "Encore des questions ?",
+    "bSub": "Nous vous conseillons volontiers personnellement et vous proposons une offre sur mesure.",
+    "bCta": "Envoyer une demande",
+    "call": "Appeler: +41 79 839 79 79"
+  }
+}

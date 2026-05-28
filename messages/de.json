@@ -1,0 +1,360 @@
+{
+  "FAQ": {
+    "q1": {
+      "question": "Wie viele Gäste passen auf die RhyLounge?",
+      "answer": "Die RhyLounge ist ein Kleinfahrgastschiff auf dem Rhein in Basel und bietet Platz für Gruppen von bis zu zwölf Personen. Sie eignet sich für private Anlässe, Business-Events sowie Zeremonien und Abschiedsfahrten."
+    },
+    "q2": {
+      "question": "Wann ist die Saison der RhyLounge?",
+      "answer": "Die RhyLounge fährt ganzjährig auf dem Rhein. Dank beheiztem Innenraum sind auch Fahrten im Herbst und Winter möglich. Jede Fahrt wird individuell geplant und auf Ihren Anlass sowie Ihre Bedürfnisse abgestimmt."
+    },
+    "q3": {
+      "question": "Kann ich eigenes Essen und Getränke mitbringen?",
+      "answer": "Ja, Sie können eigenes Essen und Getränke mitbringen. In diesem Fall verrechnen wir ein Zapfgeld pro Person. Alternativ übernehmen wir auf Wunsch gerne das Catering und organisieren Speisen und Getränke passend zu Ihrem Event auf dem Rhein."
+    },
+    "q4": {
+      "question": "Was passiert bei schlechtem Wetter?",
+      "answer": "Fahrten mit der RhyLounge finden auch bei Regen oder kühleren Temperaturen statt. Der beheizte Innenraum und geschützte Sitzplätze sorgen dafür, dass Ihr Anlass auf dem Rhein wetterunabhängig und entspannt durchgeführt werden kann. Bei extremen Wetterbedingungen besprechen wir das weitere Vorgehen frühzeitig mit Ihnen."
+    },
+    "q5": {
+      "question": "Wo ist die Anlegestelle der RhyLounge?",
+      "answer": "Die Anlegestelle wird je nach Route und Anlass festgelegt. Start- und Zielpunkt Ihrer Fahrt auf dem Rhein stimmen wir individuell mit Ihnen ab, damit der Ablauf optimal zu Ihrem Event passt."
+    },
+    "q6": {
+      "question": "Wie weit im Voraus sollte ich buchen?",
+      "answer": "Je früher Sie Ihre Fahrt mit der RhyLounge buchen, desto besser – insbesondere bei beliebten Terminen. Kurzfristige Buchungen sind ebenfalls möglich, sofern Kapazitäten verfügbar sind. Kontaktieren Sie uns am besten direkt."
+    }
+  },
+  "Nav": {
+    "home": "Home",
+    "offers": "Angebote",
+    "ship": "Das Schiff",
+    "events": "Events",
+    "catering": "Catering",
+    "pricing": "Preise & FAQ",
+    "contact": "Kontakt",
+    "cta": "Jetzt anfragen",
+    "mClose": "Menü schliessen",
+    "mOpen": "Menü öffnen"
+  },
+  "Footer": {
+    "desc": "Private Bootsfahrten auf dem Basler Rhein. Unvergessliche Momente für bis zu 12 Gäste.",
+    "t1": "Angebote",
+    "t2": "Informationen",
+    "t3": "Kontakt",
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz",
+    "agb": "AGB",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "Hero": {
+    "badge": "Premium Private Cruise",
+    "t1": "Basel vom Wasser aus",
+    "t2": "neu entdecken",
+    "sub": "Mehr als eine Bootsfahrt. Ihr exklusiver Rückzugsort auf dem Rhein für Apéro, Dinner und unvergessliche Momente.",
+    "cta1": "Jetzt anfragen",
+    "cta2": "Angebote ansehen",
+    "f1a": "Bis 12 Gäste",
+    "f1b": "Privat & Exklusiv",
+    "f2a": "Individuell",
+    "f2b": "Dauer nach Wunsch",
+    "f3a": "Apéro & Dinner",
+    "f3b": "Catering on board",
+    "f4a": "Basel City",
+    "f4b": "Ab Schifflände"
+  },
+  "Exp": {
+    "t1": "Die RhyLounge",
+    "t2": "Journey",
+    "sub": "Von der Begrüssung bis zum letzten Blick auf die Lichter der Stadt.",
+    "s1a": "Ankommen & Boarding",
+    "s1b": "Ihr privater Kapitän empfängt Sie herzlich an der Schifflände Basel. Der Teppich ist für Sie ausgerollt.",
+    "s2a": "Basel bei Nacht",
+    "s2b": "Die Stadt leuchtet. Das Münster, das Roche-Turm-Duo und die Brücken ziehen in aller Ruhe an Ihnen vorbei.",
+    "s3a": "Apéro & Lounge",
+    "s3b": "Stossen Sie an. Mit feinem Prosecco, lokalen Weinen und einem Apéro-Plättli geniessen Sie die Exklusivität.",
+    "s4a": "Unvergessliche Momente",
+    "s4b": "Ob tiefgründige Gespräche oder ausgelassenes Lachen – diese Fahrt bleibt in Erinnerung.",
+    "eye1": "Das innovativste und komfortabelste Kleinfahrgastschiff auf dem Basler Rhein",
+    "eye2": "Besondere Momente verdienen eine besondere Location."
+  },
+  "AGrid": {
+    "badge": "Vielfältige Möglichkeiten",
+    "t1": "Unsere",
+    "t2": "Angebote",
+    "sub": "Ob Feier, Essen, entspannter Abend oder stiller Anlass: jede Fahrt wird persönlich geplant.",
+    "o1a": "Private Feiern",
+    "o1b": "Geburtstage & besondere Momente",
+    "o1c": "Feiern Sie mit Familie und Freunden privat auf dem Rhein, mit Essen, Getränken und Musik nach Wunsch.",
+    "o2a": "Geschäftsessen",
+    "o2b": "Business auf dem Wasser",
+    "o2c": "Ein besonderer Rahmen für Kundentermine, Teamessen und kleine Firmenevents.",
+    "o3a": "Ruhige Anlässe",
+    "o3b": "Auch für Abschiede",
+    "o4a": "Catering & Apéro",
+    "o4b": "Genuss an Bord",
+    "o5a": "Individuell",
+    "o5b": "Nach Wunsch",
+    "view": "Details ansehen"
+  },
+  "Social": {
+    "badge": "Echte Bewertungen",
+    "t": "Was Gäste auf Google sagen",
+    "sub": "Lesen Sie die aktuellen Bewertungen und Kommentare direkt im Google Maps Profil der RhyLounge.",
+    "st1": "Live Google-Profil",
+    "st2": "Aktuelle Bewertung",
+    "st3": "Echte Gästestimmen",
+    "googleTitle": "Bewertungen direkt auf Google ansehen",
+    "googleText": "Die Bewertung und Kommentare werden live bei Google geführt. So sehen Besucher immer den aktuellen Stand und echte Rückmeldungen von Gästen.",
+    "googleCta": "Google Bewertungen öffnen",
+    "prev": "Vorherige Bewertung",
+    "next": "Nächste Bewertung"
+  },
+  "CTA": {
+    "badge": "Starten Sie Ihre Planung",
+    "t1": "Bereit für Ihr",
+    "t2": "Event auf dem Rhein?",
+    "sub": "Sichern Sie sich Ihren Wunschtermin. Füllen Sie das Formular aus und wir melden uns persönlich bei Ihnen – meist noch am selben Tag.",
+    "b1": "Antwort innerhalb 24h",
+    "b2": "Unverbindliche Offerte",
+    "b3": "Keine versteckten Kosten",
+    "phone": "Lieber direkt sprechen?",
+    "form": "Anfrage senden"
+  },
+  "ContactForm": {
+    "opts": [
+      "Bitte wählen...",
+      "Geburtstag",
+      "Firmenevent",
+      "Apéro-Fahrt",
+      "Hochzeit / Feier",
+      "Sonstiges"
+    ],
+    "vor": "Vorname",
+    "nach": "Nachname",
+    "firma": "Firma (optional)",
+    "email": "E-Mail",
+    "tel": "Telefon",
+    "anlass": "Anlass",
+    "datum": "Gewünschtes Datum (optional)",
+    "pers": "Personenanzahl",
+    "msg": "Nachricht / Wünsche",
+    "pMsg": "Erzählen Sie uns von Ihrem geplanten Anlass...",
+    "d1": "Ich habe die",
+    "d2": "Datenschutzerklärung",
+    "d3": "gelesen und bin mit der Verarbeitung meiner Daten einverstanden.",
+    "err": "Es gab einen Fehler. Bitte versuchen Sie es erneut.",
+    "sub": "Wird gesendet...",
+    "s": "Anfrage senden",
+    "sucT": "Anfrage gesendet!",
+    "sucD": "Vielen Dank für Ihre Anfrage. Wir melden uns innerhalb von 24 Stunden bei Ihnen.",
+    "newReq": "Neue Anfrage"
+  },
+  "AngebotePage": {
+    "badge": "Individuelle Angebote",
+    "t1": "Ein Boot für",
+    "t2": "Ihren Anlass",
+    "sub": "Die genannten Anlässe sind Beispiele. Jede Fahrt wird persönlich geplant - passend zu Ihrem Anlass, Ihrer Gruppe und der gewünschten Stimmung.",
+    "includes": "Das stimmen wir gemeinsam ab",
+    "cta": "Jetzt anfragen",
+    "mainKicker": "Alles wird individuell geplant",
+    "mainTitle": "Ihr Anlass auf dem Wasser",
+    "mainText": "Die RhyLounge ist kein starres Paket, sondern ein privater Ort auf dem Rhein. Sie können an Bord essen, anstossen, feiern, einfach entspannen oder einen stillen Moment gestalten. Wir planen Ablauf, Dauer, Route, Essen, Getränke und Atmosphäre so, wie es zu Ihnen passt.",
+    "examplesTitle": "Mögliche Anlässe",
+    "examples": [
+      "Geburtstage",
+      "Geschäftsessen",
+      "Einfach so",
+      "Apéro & Drinks",
+      "Kleine Partys",
+      "Trauerfeiern",
+      "Junggesellenabschiede",
+      "Familie & Freunde"
+    ],
+    "highlights": [
+      "Flexible Dauer und Route",
+      "Essen, Getränke oder Catering möglich",
+      "Privater Rahmen bis 12 Gäste",
+      "Ruhig, festlich oder locker planbar",
+      "Persönliche Beratung vor der Buchung"
+    ],
+    "bottomT": "Sie haben eine eigene Idee?",
+    "bottomD": "Erzählen Sie uns, was Sie vorhaben. Wir machen daraus eine Fahrt, die zu Ihrem Anlass passt.",
+    "bottomCta": "Persönliche Anfrage senden"
+  },
+  "CateringPage": {
+    "badge": "Essen & Getränke",
+    "t1": "Ganz nach",
+    "t2": "Ihrem Wunsch",
+    "sub": "Die RhyLounge hat kein starres Catering-Angebot. An Bord gibt es eine Bar und einen Kühlschrank mit Softdrinks. Alles Weitere wird flexibel nach Anlass, Gruppe und Wunsch geplant.",
+    "mainKicker": "Individuell statt Paket",
+    "mainTitle": "Essen und Getränke nach Absprache",
+    "mainText": "Ob ein einfacher Apéro, kleine Snacks, ein Essen an Bord oder eigene Speisen und Getränke: Wir besprechen gemeinsam, was zu Ihrer Fahrt passt. Die Bar an Bord und der Kühlschrank mit Softdrinks bieten eine gute Basis. Auf Wunsch können auch passende Partner oder Caterer einbezogen werden.",
+    "pointsTitle": "So bleibt es flexibel",
+    "points": [
+      "Bar an Bord und Kühlschrank mit Softdrinks vorhanden",
+      "Kein fixes Menü und keine festen Pakete",
+      "Eigene Speisen und Getränke sind nach Absprache möglich",
+      "Apéro, Snacks oder Essen können passend zum Anlass geplant werden",
+      "Alles wird persönlich vor der Buchung besprochen"
+    ],
+    "examplesTitle": "Mögliche Ideen",
+    "examples": [
+      "Softdrinks",
+      "Apéro",
+      "Getränke",
+      "Snacks",
+      "Kleines Essen",
+      "Eigene Speisen"
+    ],
+    "cta": "Jetzt anfragen",
+    "bT": "Sie haben eigene Wünsche?",
+    "bD": "Erzählen Sie uns kurz, was Sie sich vorstellen. Wir klären gemeinsam, was an Bord sinnvoll und möglich ist.",
+    "bCta": "Persönlich anfragen",
+    "gT": "Galerie"
+  },
+  "EventsPage": {
+    "badge": "Events & Anlässe",
+    "t1": "Business-Events & ",
+    "t2": "Private Anlässe",
+    "sub": "Von Teambuilding bis Hochzeit – wir gestalten unvergessliche Events auf dem Basler Rhein.",
+    "items": [
+      {
+        "t": "Firmenevents",
+        "s": "Teambuilding auf dem Wasser",
+        "d": "Stärken Sie den Zusammenhalt Ihres Teams bei einem unvergesslichen Event auf dem Rhein. Ideal für Teamausflüge, Kundenveranstaltungen oder Mitarbeiterfeiern.",
+        "h1": "Teambuilding-Aktivitäten",
+        "h2": "Catering-Optionen",
+        "h3": "Flexible Zeitplanung",
+        "h4": "Bis 12 Gäste"
+      },
+      {
+        "t": "Private Anlässe",
+        "s": "Feiern Sie besondere Momente",
+        "d": "Geburtstage, Jubiläen, Junggesellenabschiede oder einfach ein schöner Abend mit Freunden – die RhyLounge bietet den perfekten Rahmen.",
+        "h1": "Individuelle Dekoration",
+        "h2": "Apéro inklusive möglich",
+        "h3": "Musik nach Wunsch",
+        "h4": "Privatsphäre garantiert"
+      },
+      {
+        "t": "Hochzeiten & Feiern",
+        "s": "Der besondere Rahmen",
+        "d": "Vom Heiratsantrag bis zur Hochzeitsfeier – auf dem Wasser werden diese Momente noch magischer.",
+        "h1": "Romantische Atmosphäre",
+        "h2": "Sonnenuntergangs-Fahrten",
+        "h3": "Foto-Locations",
+        "h4": "Catering nach Wunsch"
+      }
+    ],
+    "req": "Anfrage senden",
+    "pT": "So funktioniert's",
+    "p": [
+      {
+        "s": "01",
+        "t": "Anfrage senden",
+        "d": "Erzählen Sie uns von Ihrem geplanten Anlass."
+      },
+      {
+        "s": "02",
+        "t": "Beratung",
+        "d": "Wir besprechen Details und erstellen ein Angebot."
+      },
+      {
+        "s": "03",
+        "t": "Planung",
+        "d": "Gemeinsam planen wir den perfekten Ablauf."
+      },
+      {
+        "s": "04",
+        "t": "Erlebnis",
+        "d": "Geniessen Sie Ihr unvergessliches Event!"
+      }
+    ],
+    "bT": "Planen Sie Ihr Event",
+    "bD": "Senden Sie uns Ihre Ideen und wir erstellen ein unverbindliches Angebot für Ihren Anlass.",
+    "bCta": "Anfrage senden"
+  },
+  "KontaktPage": {
+    "badge": "Kontakt",
+    "t1": "Ihre",
+    "t2": "Anfrage",
+    "sub": "Erzählen Sie uns von Ihrem geplanten Anlass. Wir melden uns innerhalb von 24 Stunden mit einem unverbindlichen Angebot.",
+    "fT": "Anfrage senden",
+    "fS": "Füllen Sie das Formular aus und wir kontaktieren Sie.",
+    "fastT": "Schnelle Antwort",
+    "fastD": "Wir antworten auf alle Anfragen innerhalb von 24 Stunden. Für dringende Anfragen rufen Sie uns direkt an.",
+    "i1T": "Telefon",
+    "i1D": "Mo-Fr 9:00-18:00",
+    "i2T": "E-Mail",
+    "i2D": "Antwort innerhalb 24h",
+    "i3T": "Anlegestelle",
+    "i3D": "Start- und Zielpunkt stimmen wir passend zur Route und zum Anlass persönlich mit Ihnen ab.",
+    "i4T": "Ganzjährig für Sie da",
+    "i4V": "Jede Saison möglich",
+    "i4D": "Wir planen Ihre Fahrt flexibel passend zum Wetter und Anlass.",
+    "mapA": "Flexible Anlegestelle am Basler Rhein",
+    "mapO": "Auf Google Maps öffnen",
+    "i3V": "Flexibel am Basler Rhein"
+  },
+  "RhyloungePage": {
+    "badge": "Das Schiff",
+    "t1": "Die",
+    "t2": "RhyLounge",
+    "sub": "Ihr komfortables Erlebnis-Schiff auf dem Basler Rhein. Kompakt, elegant und perfekt für private Fahrten.",
+    "i1L": "Kapazität",
+    "i1V": "Bis 12 Gäste",
+    "i2L": "Länge",
+    "i2V": "10 Meter",
+    "i3L": "Sicherheit",
+    "i3V": "Vollständig ausgestattet",
+    "i4L": "Baujahr",
+    "i4V": "2018",
+    "fT1": "Ausstattung &",
+    "fT2": "Komfort",
+    "fD": "Die RhyLounge ist mehr als ein Boot – sie ist Ihr privater Rückzugsort auf dem Wasser. Ausgestattet mit allem, was Sie für ein entspanntes Erlebnis benötigen.",
+    "f0": "Komfortable Sitzplätze mit Polsterung",
+    "f1": "Wetterschutz (Sonnendach & Verdeck)",
+    "f2": "Hochwertige Soundanlage",
+    "f3": "Kühlmöglichkeiten für Getränke",
+    "f4": "Beleuchtung für Abendfahrten",
+    "f5": "Barrierefreier Zugang möglich",
+    "cT": "Ihr Gastgeber",
+    "cS": "Kapitän & Gastgeber",
+    "cQ": "\"Für mich ist jede Fahrt ein besonderer Moment. Es geht nicht nur darum, von A nach B zu fahren – es geht um das Erlebnis, das Lächeln der Gäste und die Erinnerungen, die entstehen.\"",
+    "c1": "8+ Jahre Erfahrung",
+    "c2": "Zertifizierter Bootsführer",
+    "c3": "Persönliche Betreuung",
+    "gT": "Galerie",
+    "bT": "Bereit, an Bord zu kommen?",
+    "bD": "Senden Sie uns Ihre Anfrage und erleben Sie die RhyLounge selbst.",
+    "bCta": "Jetzt anfragen"
+  },
+  "PreisePage": {
+    "badge": "Individuelle Angebote",
+    "t1": "Angebot &",
+    "t2": "FAQ",
+    "sub": "Jede Fahrt wird individuell auf Anlass, Dauer, Route und Service abgestimmt. Kontaktieren Sie uns für ein persönliches Angebot.",
+    "pT": "Im Preis enthalten",
+    "inc": [
+      {
+        "l": "Kapitän & Gastgeber"
+      },
+      {
+        "l": "Flexible Startzeiten"
+      },
+      {
+        "l": "Individuelle Routen"
+      },
+      {
+        "l": "Keine versteckten Kosten"
+      }
+    ],
+    "fT": "Häufige Fragen",
+    "fSub": "Finden Sie schnell Antworten auf die häufigsten Fragen. Für weitere Informationen sind wir gerne für Sie da.",
+    "bT": "Noch Fragen?",
+    "bSub": "Wir beraten Sie gerne persönlich und erstellen ein individuelles Angebot für Sie.",
+    "bCta": "Anfrage senden",
+    "call": "Anrufen: +41 79 839 79 79"
+  }
+}
