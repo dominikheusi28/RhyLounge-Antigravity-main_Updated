@@ -59,14 +59,24 @@ export async function POST(request: Request) {
         }
 
         const smtpPort = Number(process.env.SMTP_PORT);
+        const smtpHost = process.env.SMTP_HOST!;
+        const smtpUser = process.env.SMTP_USER!;
+        const recipient = process.env.CONTACT_TO_EMAIL!;
+
         const transporter = nodemailer.createTransport({
-            host: process.env.SMTP_HOST,
+            host: smtpHost,
             port: smtpPort,
             secure: smtpPort === 465,
             auth: {
-                user: process.env.SMTP_USER,
+                user: smtpUser,
                 pass: process.env.SMTP_PASS,
             },
+            tls: {
+                servername: smtpHost,
+            },
+            connectionTimeout: 15_000,
+            greetingTimeout: 15_000,
+            socketTimeout: 20_000,
         });
 
         const name = `${payload.vorname.trim()} ${payload.nachname.trim()}`;
@@ -104,8 +114,15 @@ export async function POST(request: Request) {
         ].join('\n');
 
         await transporter.sendMail({
-            from: process.env.CONTACT_FROM_EMAIL,
-            to: process.env.CONTACT_TO_EMAIL,
+            from: {
+                name: 'RhyLounge Website',
+                address: smtpUser,
+            },
+            envelope: {
+                from: smtpUser,
+                to: recipient,
+            },
+            to: recipient,
             replyTo,
             subject,
             text,

@@ -76,7 +76,8 @@ export function ContactForm() {
             });
 
             if (!response.ok) {
-                throw new Error('Contact request failed');
+                const result = await response.json().catch(() => null);
+                throw new Error(result?.message || 'Contact request failed');
             }
 
             setStatus('success');
@@ -100,9 +101,9 @@ export function ContactForm() {
 
     const inputClasses = `
     w-full px-4 py-3 rounded-xl border border-gray-200 
-    bg-white focus:border-primary focus:ring-2 focus:ring-primary/20 
+    bg-white text-gray-900 caret-gray-900 focus:border-primary focus:ring-2 focus:ring-primary/20
     outline-none transition-all duration-200
-    placeholder:text-gray-400
+    placeholder:text-gray-400 disabled:text-gray-500
   `;
 
     const labelClasses = 'block text-sm font-medium text-gray-700 mb-2';
