@@ -4,40 +4,77 @@ import { Link } from '@/i18n/routing';
 import { Send } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useEffect, useState } from 'react';
+import { usePathname } from '@/i18n/routing';
+import { useTranslations } from 'next-intl';
 
 export function MobileStickyCTA() {
     const [isVisible, setIsVisible] = useState(false);
+    const [isBlockingSectionVisible, setIsBlockingSectionVisible] = useState(false);
+    const pathname = usePathname();
+    const t = useTranslations('Nav');
 
     useEffect(() => {
         const handleScroll = () => {
-            // Show after scrolling past hero (approx 80vh)
-            setIsVisible(window.scrollY > window.innerHeight * 0.8);
+            const distanceFromBottom =
+                document.documentElement.scrollHeight - (window.scrollY + window.innerHeight);
+            setIsVisible(
+                window.scrollY > window.innerHeight * 0.8 &&
+                distanceFromBottom > window.innerHeight
+            );
         };
 
+        handleScroll();
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
+    useEffect(() => {
+        const blockingSections = [
+            document.getElementById('contact'),
+            document.querySelector<HTMLElement>('footer'),
+        ].filter((section): section is HTMLElement => Boolean(section));
+
+        if (blockingSections.length === 0) return;
+
+        const visibleSections = new Set<Element>();
+
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        visibleSections.add(entry.target);
+                    } else {
+                        visibleSections.delete(entry.target);
+                    }
+                });
+                setIsBlockingSectionVisible(visibleSections.size > 0);
+            },
+            { rootMargin: '0px 0px 15% 0px', threshold: 0.05 }
+        );
+
+        blockingSections.forEach((section) => observer.observe(section));
+        return () => observer.disconnect();
+    }, [pathname]);
+
+    const shouldShow = isVisible && !isBlockingSectionVisible && !pathname.endsWith('/kontakt');
+
     return (
         <AnimatePresence>
-            {isVisible && (
+            {shouldShow && (
                 <motion.div
                     initial={{ y: 100, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     exit={{ y: 100, opacity: 0 }}
                     transition={{ type: "spring", stiffness: 300, damping: 30 }}
-                    className="fixed bottom-0 left-0 right-0 p-4 z-40 md:hidden pointer-events-none"
+                    className="fixed bottom-0 left-0 right-0 z-30 px-4 pb-[max(1rem,env(safe-area-inset-bottom))] md:hidden pointer-events-none"
                 >
-                    <div className="pointer-events-auto">
+                    <div className="pointer-events-auto flex justify-end">
                         <Link
                             href="/kontakt"
-                            className="flex items-center justify-center w-full py-4 rounded-xl bg-primary text-white font-bold text-lg shadow-lg shadow-primary/25 hover:bg-primary-dark transition-colors"
+                            className="inline-flex items-center justify-center px-5 py-3 rounded-xl bg-primary text-white font-bold shadow-lg shadow-black/35 hover:bg-primary-dark transition-colors"
                         >
-                            <span className="mr-2">Anfrage senden</span>
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                <line x1="22" y1="2" x2="11" y2="13"></line>
-                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
-                            </svg>
+                            <span className="mr-2">{t('cta')}</span>
+                            <Send className="w-5 h-5" />
                         </Link>
                     </div>
                 </motion.div>

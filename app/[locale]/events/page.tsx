@@ -149,7 +149,7 @@ export default function EventsPage() {
                     initial={{ opacity: 0, y: 30 }}
                     animate={isInView ? { opacity: 1, y: 0 } : {}}
                     transition={{ duration: 0.6, delay: 0.4 }}
-                    className="text-center bg-blue-600 rounded-3xl p-12 text-white shadow-2xl relative overflow-hidden"
+                    className="text-center bg-blue-600 rounded-3xl p-8 sm:p-12 text-white shadow-2xl relative overflow-hidden"
                 >
                     <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-700" />
                     <div className="relative z-10">

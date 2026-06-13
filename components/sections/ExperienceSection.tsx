@@ -41,11 +41,11 @@ export function ExperienceSection() {
     ];
 
     return (
-        <section className="bg-navy-950 py-32 relative overflow-hidden">
+        <section className="bg-navy-950 py-20 md:py-32 relative overflow-hidden">
             {/* Background Glow */}
             <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary-dark/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none" />
 
-            <div className="container-custom mb-24 text-center">
+            <div className="container-custom mb-16 md:mb-24 text-center">
                 <motion.h2
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -100,7 +100,7 @@ function StepCard({ step, index }: { step: any, index: number }) {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className={`flex flex-col ${isEven ? 'lg:flex-row' : 'lg:flex-row-reverse'} items-center gap-12 lg:gap-24 mb-32 last:mb-0`}
+            className={`flex flex-col ${isEven ? 'lg:flex-row' : 'lg:flex-row-reverse'} items-center gap-10 lg:gap-24 mb-20 md:mb-32 last:mb-0`}
         >
             {/* Visual */}
             <div className="flex-1 w-full relative group">
@@ -117,8 +117,8 @@ function StepCard({ step, index }: { step: any, index: number }) {
                 </div>
 
                 {/* Floating Number */}
-                <div className={`absolute -top-6 ${isEven ? '-left-6' : '-right-6'} w-20 h-20 bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl flex items-center justify-center shadow-xl`}>
-                    <span className="text-3xl font-bold text-white font-heading">{step.number}</span>
+                <div className={`absolute -top-4 ${isEven ? '-left-1 sm:-left-4' : '-right-1 sm:-right-4'} w-16 h-16 sm:w-20 sm:h-20 bg-navy-900/90 backdrop-blur-xl border border-white/10 rounded-2xl flex items-center justify-center shadow-xl`}>
+                    <span className="text-2xl sm:text-3xl font-bold text-white font-heading">{step.number}</span>
                 </div>
             </div>
 
@@ -127,8 +127,8 @@ function StepCard({ step, index }: { step: any, index: number }) {
                 <div className={`inline-flex items-center justify-center p-3 rounded-xl bg-primary-light/10 text-primary-light mb-6`}>
                     <step.icon className="w-6 h-6" />
                 </div>
-                <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">{step.title}</h3>
-                <p className="text-lg text-slate-300 leading-relaxed mb-8">
+                <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-5">{step.title}</h3>
+                <p className="text-base sm:text-lg text-slate-300 leading-relaxed mb-8">
                     {step.description}
                 </p>
             </div>

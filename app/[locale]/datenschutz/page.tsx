@@ -5,11 +5,11 @@ import {useLocale} from 'next-intl';
 const content = {
     de: {
         title: 'Datenschutz',
-        intro: 'Diese Seite beschreibt die grundlegende Verarbeitung von Kontaktdaten. Bitte vor der Live-Schaltung rechtlich pr?fen lassen.',
+        intro: 'Diese Seite beschreibt die grundlegende Verarbeitung von Kontaktdaten. Bitte vor der Live-Schaltung rechtlich prüfen lassen.',
         sections: [
             ['Kontaktformular', 'Wenn Sie uns eine Anfrage senden, verwenden wir Ihre Angaben zur Bearbeitung der Anfrage und zur Kontaktaufnahme.'],
-            ['Serverdaten', 'Beim Besuch der Website k?nnen technische Zugriffsdaten wie IP-Adresse, Zeitpunkt und Browserinformationen verarbeitet werden.'],
-            ['Ihre Rechte', 'Sie k?nnen Auskunft, Berichtigung oder L?schung Ihrer personenbezogenen Daten verlangen, soweit keine gesetzlichen Pflichten entgegenstehen.'],
+            ['Serverdaten', 'Beim Besuch der Website können technische Zugriffsdaten wie IP-Adresse, Zeitpunkt und Browserinformationen verarbeitet werden.'],
+            ['Ihre Rechte', 'Sie können Auskunft, Berichtigung oder Löschung Ihrer personenbezogenen Daten verlangen, soweit keine gesetzlichen Pflichten entgegenstehen.'],
             ['Kontakt', 'Bei Datenschutzfragen erreichen Sie uns unter info@flussbus.ch.'],
         ],
     },

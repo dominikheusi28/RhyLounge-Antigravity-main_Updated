@@ -4,7 +4,7 @@ import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { Link } from '@/i18n/routing';
 import Image from 'next/image';
-import { Users, Ruler, Shield, Award, Anchor, Heart, Coffee, Check } from 'lucide-react';
+import { Users, Bath, Armchair, Sun, Shield, Award, Coffee, Check } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
 export default function RhyLoungePage() {
@@ -12,9 +12,9 @@ export default function RhyLoungePage() {
 
     const specs = [
         { icon: Users, label: t('i1L'), value: t('i1V') },
-        { icon: Ruler, label: t('i2L'), value: t('i2V') },
-        { icon: Shield, label: t('i3L'), value: t('i3V') },
-        { icon: Award, label: t('i4L'), value: t('i4V') },
+        { icon: Bath, label: t('i2L'), value: t('i2V') },
+        { icon: Armchair, label: t('i3L'), value: t('i3V') },
+        { icon: Sun, label: t('i4L'), value: t('i4V') },
     ];
 
     const features = [
@@ -42,7 +42,8 @@ export default function RhyLoungePage() {
                         {t('badge')}
                     </span>
                     <h1 className="text-hero text-white mb-6 drop-shadow-lg">
-                        {t('t1')} <span className="text-primary-light">{t('t2')}</span>
+                        {t('t1')}
+                        <span className="block text-primary-light mt-2">{t('t2')}</span>
                     </h1>
                     <p className="text-xl text-slate-200 leading-relaxed max-w-2xl">
                         {t('sub')}
@@ -59,11 +60,12 @@ export default function RhyLoungePage() {
                     className="relative aspect-[21/9] rounded-3xl overflow-hidden"
                 >
                     <Image
-                        src="/images/hero/rhylounge_boat_docked_city_bluehour_hero_01.webp"
-                        alt="RhyLounge Boot im Basler Hafen"
+                        src="/images/hero/rhylounge_boat_mittlere_bruecke_high_quality.jpg"
+                        alt="Die beleuchtete RhyLounge an der Mittleren Brücke in Basel"
                         fill
                         className="object-cover"
                         sizes="100vw"
+                        quality={90}
                     />
                 </motion.div>
             </section>
@@ -79,14 +81,14 @@ export default function RhyLoungePage() {
                     {specs.map((spec, index) => (
                         <div
                             key={spec.label}
-                            className="relative overflow-hidden bg-gradient-to-br from-blue-900 to-blue-600 rounded-xl shadow-[0_0_15px_rgba(59,130,246,0.4)] p-6 text-center hover:shadow-[0_0_25px_rgba(59,130,246,0.6)] transition-all duration-300 transform hover:-translate-y-1 border border-blue-400/30 backdrop-blur-md group"
+                            className="relative overflow-hidden bg-gradient-to-br from-blue-900 to-blue-600 rounded-xl shadow-[0_0_15px_rgba(59,130,246,0.4)] p-4 sm:p-6 text-center hover:shadow-[0_0_25px_rgba(59,130,246,0.6)] transition-all duration-300 transform hover:-translate-y-1 border border-blue-400/30 backdrop-blur-md group"
                         >
                             <div className="absolute inset-0 bg-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                            <div className="w-14 h-14 rounded-2xl bg-white/10 flex items-center justify-center mx-auto mb-4 border border-blue-400/30 shadow-[0_0_10px_rgba(0,255,255,0.2)]">
+                            <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-white/10 flex items-center justify-center mx-auto mb-4 border border-blue-400/30 shadow-[0_0_10px_rgba(0,255,255,0.2)]">
                                 <spec.icon className="w-7 h-7 text-cyan-400 drop-shadow-[0_0_5px_rgba(34,211,238,0.8)]" />
                             </div>
                             <p className="text-blue-200 text-sm mb-1 font-medium tracking-wide">{spec.label}</p>
-                            <p className="text-lg font-bold text-white drop-shadow-md">{spec.value}</p>
+                            <p className="text-base sm:text-lg font-bold text-white drop-shadow-md">{spec.value}</p>
                         </div>
                     ))}
                 </motion.div>
@@ -126,19 +128,36 @@ export default function RhyLoungePage() {
                         animate={isInView ? { opacity: 1, x: 0 } : {}}
                         transition={{ duration: 0.6, delay: 0.5 }}
                     >
-                        <div className="glass-panel p-8 text-white h-full rounded-2xl border border-white/10 shadow-2xl relative overflow-hidden group">
+                        <div className="glass-panel p-6 sm:p-8 text-white h-full rounded-2xl border border-white/10 shadow-2xl relative overflow-hidden group">
                             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-navy-950/80 -z-10" />
-                            <div className="flex items-start gap-4 mb-6">
-                                <div className="w-20 h-20 rounded-2xl bg-white/10 backdrop-blur-md flex items-center justify-center shrink-0 border border-white/20">
-                                    <Heart className="w-10 h-10 text-primary-light" />
+                            <div className="grid grid-cols-2 gap-3 mb-6">
+                                <div className="relative aspect-[4/3] overflow-hidden rounded-xl border border-white/10">
+                                    <Image
+                                        src="/images/erlebnis/remo_flussbus_portrait.webp"
+                                        alt="Remo an Bord der RhyLounge"
+                                        fill
+                                        className="object-cover"
+                                        sizes="(max-width: 1024px) 50vw, 25vw"
+                                    />
                                 </div>
+                                <div className="relative aspect-[4/3] overflow-hidden rounded-xl border border-white/10">
+                                    <Image
+                                        src="/images/erlebnis/lena_flussbus_portrait.webp"
+                                        alt="Lena an Bord der RhyLounge"
+                                        fill
+                                        className="object-cover object-center"
+                                        sizes="(max-width: 1024px) 50vw, 25vw"
+                                    />
+                                </div>
+                            </div>
+                            <div className="mb-6">
                                 <div>
                                     <h3 className="text-2xl font-bold mb-2">{t('cT')}</h3>
                                     <p className="text-slate-300">{t('cS')}</p>
                                 </div>
                             </div>
 
-                            <p className="text-slate-200 mb-8 leading-relaxed italic">
+                            <p className="text-slate-200 mb-8 leading-relaxed">
                                 {t('cQ')}
                             </p>
 
@@ -173,7 +192,7 @@ export default function RhyLoungePage() {
                     initial={{ opacity: 0, y: 30 }}
                     animate={isInView ? { opacity: 1, y: 0 } : {}}
                     transition={{ duration: 0.6, delay: 0.7 }}
-                    className="text-center bg-gradient-to-br from-primary to-primary-dark rounded-3xl p-12 text-white"
+                    className="text-center bg-gradient-to-br from-primary to-primary-dark rounded-3xl p-8 sm:p-12 text-white"
                 >
                     <h2 className="text-2xl md:text-3xl font-bold mb-4">
                         {t('bT')}

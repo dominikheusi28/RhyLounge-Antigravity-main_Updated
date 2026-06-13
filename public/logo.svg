@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
-  <title id="title">Rhylounge by Remo and Lena</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="220 70 760 390" role="img" aria-labelledby="title desc">
+  <title id="title">RhyLounge by Remo and Lena</title>
   <desc id="desc">A clean Rhylounge logo with a tiny boat and wave mark.</desc>
   <defs>
     <linearGradient id="brandBlue" x1="120" x2="1080" y1="110" y2="410" gradientUnits="userSpaceOnUse">
@@ -32,7 +32,7 @@
         font-size="158"
         font-weight="700"
         letter-spacing="-5">
-    Rhylounge
+    RhyLounge
   </text>
 
   <text x="724" y="438"

@@ -5,11 +5,11 @@ import {useLocale} from 'next-intl';
 const content = {
     de: {
         title: 'AGB',
-        intro: 'Allgemeine Hinweise zu Buchungen. Bitte vor der Live-Schaltung mit den finalen Gesch?ftsbedingungen ersetzen oder rechtlich pr?fen lassen.',
+        intro: 'Allgemeine Hinweise zu Buchungen. Bitte vor der Live-Schaltung mit den finalen Geschäftsbedingungen ersetzen oder rechtlich prüfen lassen.',
         sections: [
             ['Anfragen und Buchungen', 'Anfragen sind unverbindlich, bis eine Buchung schriftlich bestaetigt wurde.'],
             ['Leistungen', 'Der genaue Leistungsumfang richtet sich nach der bestaetigten Offerte.'],
-            ['?nderungen', 'Wetter, Sicherheit oder beh?rdliche Vorgaben k?nnen Anpassungen erforderlich machen.'],
+            ['Änderungen', 'Wetter, Sicherheit oder behördliche Vorgaben können Anpassungen erforderlich machen.'],
             ['Kontakt', 'Fragen zu Buchungen beantworten wir unter info@flussbus.ch.'],
         ],
     },

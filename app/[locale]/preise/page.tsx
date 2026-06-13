@@ -13,7 +13,6 @@ export default function PreisePage() {
     const faqs = [
         { question: tFaq('q1.question'), answer: tFaq('q1.answer') },
         { question: tFaq('q2.question'), answer: tFaq('q2.answer') },
-        { question: tFaq('q3.question'), answer: tFaq('q3.answer') },
         { question: tFaq('q4.question'), answer: tFaq('q4.answer') },
         { question: tFaq('q5.question'), answer: tFaq('q5.answer') },
         { question: tFaq('q6.question'), answer: tFaq('q6.answer') },
@@ -123,7 +122,7 @@ export default function PreisePage() {
                     initial={{ opacity: 0, y: 30 }}
                     animate={isInView ? { opacity: 1, y: 0 } : {}}
                     transition={{ duration: 0.6, delay: 0.5 }}
-                    className="text-center bg-blue-600 rounded-3xl p-12 text-white shadow-2xl relative overflow-hidden"
+                    className="text-center bg-blue-600 rounded-3xl p-8 sm:p-12 text-white shadow-2xl relative overflow-hidden"
                 >
                     <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-700" />
                     <div className="relative z-10">

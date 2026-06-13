@@ -57,7 +57,7 @@ export default function CateringPage() {
                     className="relative overflow-hidden bg-gradient-to-br from-blue-900 to-blue-600 rounded-3xl shadow-[0_0_18px_rgba(59,130,246,0.35)] border border-blue-400/30"
                 >
                     <div className="absolute inset-0 bg-white/5 pointer-events-none" />
-                    <div className="relative z-10 grid lg:grid-cols-[1fr_0.9fr] gap-10 p-8 md:p-12">
+                    <div className="relative z-10 grid lg:grid-cols-[1fr_0.9fr] gap-10 p-6 sm:p-8 md:p-12">
                         <div>
                             <div className="w-16 h-16 rounded-2xl bg-cyan-500 flex items-center justify-center mb-6 border border-white/20 shadow-[0_0_15px_rgba(34,211,238,0.55)]">
                                 <ChefHat className="w-8 h-8 text-white" />
@@ -150,7 +150,7 @@ export default function CateringPage() {
                     initial={{ opacity: 0, y: 30 }}
                     animate={isInView ? { opacity: 1, y: 0 } : {}}
                     transition={{ duration: 0.6, delay: 0.5 }}
-                    className="text-center bg-blue-600 rounded-3xl p-12 text-white shadow-2xl relative overflow-hidden"
+                    className="text-center bg-blue-600 rounded-3xl p-8 sm:p-12 text-white shadow-2xl relative overflow-hidden"
                 >
                     <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-700" />
                     <div className="relative z-10">

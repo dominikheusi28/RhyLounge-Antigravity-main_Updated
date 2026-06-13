@@ -135,8 +135,8 @@ export function ContactForm() {
     }
 
     return (
-        <form onSubmit={handleSubmit} className="glass-card-solid p-6 md:p-8">
-            <div className="grid md:grid-cols-2 gap-6">
+        <form onSubmit={handleSubmit} className="glass-card-solid p-4 sm:p-6 md:p-8">
+            <div className="grid md:grid-cols-2 gap-5 md:gap-6">
                 {/* Vorname */}
                 <div>
                     <label htmlFor="vorname" className={labelClasses}>

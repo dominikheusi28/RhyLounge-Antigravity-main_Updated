@@ -5,11 +5,11 @@ import {useLocale} from 'next-intl';
 const content = {
     de: {
         title: 'Impressum',
-        intro: 'Angaben gem?ss Schweizer Recht. Bitte vor der Live-Schaltung mit den finalen Firmendaten pr?fen.',
+        intro: 'Angaben gemäss Schweizer Recht. Bitte vor der Live-Schaltung mit den finalen Firmendaten prüfen.',
         sections: [
             ['Anbieter', 'RhyLounge, Schifflande, 4001 Basel, Schweiz'],
             ['Kontakt', 'Telefon: +41 79 839 79 79 | E-Mail: info@flussbus.ch'],
-            ['Verantwortlich f?r den Inhalt', 'RhyLounge'],
+            ['Verantwortlich für den Inhalt', 'RhyLounge'],
         ],
     },
     en: {
